@@ -3,7 +3,7 @@ name: GSI Builder
 on:
   workflow_dispatch:
     inputs:
-      gsi_url:
+      gsi_url:https://github.com/Kyros70/InfinityX_treble/releases/download/20261011/InfinityX-4.0-UNOFFICIAL-VANILLA-20261011-GSI-arm64_ab.img.xz
         description: 'Direct GSI download URL (supports .img, .img.xz, .xz, .7z, .zip, .tar.gz)'
         required: true
         type: string
